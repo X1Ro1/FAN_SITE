@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    width: 300px;
+    list-style: none;
+    background: rgb(180, 35, 35);
+    position: relative;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5px;
+    height: 50px;
+    line-height: 40px;
+    transition: all .5s;
+}
+
+.menu a:hover{
+    background: rgb(197, 95, 95);
+}
+
+.menu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+}
+
+.text {
+    text-align: center;
+    margin-top: 10%;
+    height: 100vh;
+}
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* Футер */
+
+.footer {
+    margin-top: auto;
+}
+    
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 18%;
+    }
+
+    .clo-1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-top: 20%;
+    }
+
+    .container {
+        background-color: #141414;
+    }
+
+    .yt {
+        width: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .yt a{
+        margin-top: 6%;
+        width: 300%;
+    }
+
+    .clo-1 a{
+        color: white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+
+    }
+
+    .clo-1 a:hover{
+        color: rgb(205, 205, 205);
+    }
+
+    .clo-1 h1{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -6%;
+    }
+
+    .clo-1 p{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
