@@ -55,7 +55,7 @@
 .text {
     text-align: center;
     margin-top: 10%;
-    height: 120vh;
+    height: 150vh;
 }
 .text h1{
     font-family: 'Unbounded';
@@ -111,7 +111,7 @@
 
     .clo-1 a{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'Unbounded';
         text-decoration: none;
 
@@ -130,6 +130,31 @@
 
     .clo-1 p{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'Unbounded';
     }
+
+
+
+
+
+
+
+
+/* Иконки */
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.clo-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 15%;
+}
+
+.clo-2 h2{
+    font-family: 'Unbounded';
+    font-size: 20px;
+}
+
